@@ -20,7 +20,7 @@ headers = "BRAND, PRODUCT_NAME, PRICE"
 f.write(headers+'\n')
 
 
-
+#
 for container in containers:
     itembrand = container.find('div', {'class':'item-branding'})
     brand = itembrand.a.img["title"]
